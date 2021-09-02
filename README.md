@@ -1,6 +1,6 @@
 # 미결정B사감 Front-end Repository
 
-화성시 ACT GROUND 창작공모전 활동 작품 아카이빙
+화성시 ACT GROUND 창작공모전 - 인터렉티브 픽션 웹앱
 
 
 #### 미결정 B 사감
