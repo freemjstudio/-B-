@@ -1,5 +1,7 @@
 <template>
-  <div>Minji web page </div>
+  <header>
+    <h1>Minji Webpage </h1>
+  </header>
 </template>
 
 
