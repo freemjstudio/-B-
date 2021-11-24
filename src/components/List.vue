@@ -15,11 +15,12 @@ export default {
 <style scoped>
   ul {
     list-style-type: none;
-    text-align: center;
     margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   li {
-   display: center;
+   display: table;
    min-height: 50px;
    height: 50px;
    line-height: 50px;

@@ -1,9 +1,14 @@
 <template>
   <div id="app">
-    <Header></Header>
-    <List v-bind:propsdata="todoItems"></List>
-    <Input v-on:addTodo="addTodo"></Input>
-    <Footer></Footer>
+    <div class="jb-box">
+      <div class="main">
+        <List v-bind:propsdata="todoItems"></List>
+      </div>
+        <video muted autoplay loop>
+        <source src="videos/Network.mp4" type="video/mp4">
+        </video>
+       <Input v-on:addTodo="addTodo"></Input>
+      </div>
   </div>
 </template>
 <script>
@@ -46,10 +51,25 @@ export default {
 </script>
 
 <style>
-body {
-    text-align: center;
-    background-color: #F6F6F8;
+  body { padding: 0px;
+        margin: 0px;
+        text-align: center;
+        overflow: hidden;
+        background-color: #F6F6F8;
+        vertical-align: center;
+     }
+
+  .jb-box {
+    weight: 100%;
+    margin: 0px auto;
+    position: relative;
   }
+
+  video { width: 100%; }
+  .main {
+    position: absolute;
+  }
+
   input {
     border-style: groove;
     width: 200px;
